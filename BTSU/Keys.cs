@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using CSFramework = FFXIVClientStructs.FFXIV.Client.System.Framework.Framework;
 
-namespace BetterTargetingSystem.Keybinds;
+namespace BTSU.Keybinds;
 
 public unsafe class Keybind
 {

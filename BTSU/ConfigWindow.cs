@@ -3,10 +3,9 @@ using Dalamud.Interface.Windowing;
 using Dalamud.Bindings.ImGui;
 using System;
 using System.Numerics;
+using BTSU.Keybinds;
 
-using BetterTargetingSystem.Keybinds;
-
-namespace BetterTargetingSystem.Windows
+namespace BTSU.Windows
 {
     public class ConfigWindow : Window, IDisposable
     {
@@ -20,7 +19,7 @@ namespace BetterTargetingSystem.Windows
         private bool ModifyingKeybindBAOETK = false;
 
         public ConfigWindow(Plugin plugin) : base(
-            "Better Targeting System",
+            "BTSU",
             ImGuiWindowFlags.AlwaysAutoResize | ImGuiWindowFlags.NoCollapse | ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
         {
             this.Size = new Vector2(185, 270);

@@ -12,7 +12,7 @@ using FFXIVClientStructs.FFXIV.Client.Game;
 using FFXIVClientStructs.FFXIV.Client.UI.Arrays;
 using Serilog;
 
-namespace BetterTargetingSystem;
+namespace BTSU;
 
 public unsafe class Utils
 {

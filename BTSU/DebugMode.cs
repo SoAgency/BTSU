@@ -6,7 +6,7 @@ using System.Numerics;
 using DalamudGameObject = Dalamud.Game.ClientState.Objects.Types.IGameObject;
 using GameObject = FFXIVClientStructs.FFXIV.Client.Game.Object.GameObject;
 
-namespace BetterTargetingSystem;
+namespace BTSU;
 
 public unsafe class DebugMode
 {

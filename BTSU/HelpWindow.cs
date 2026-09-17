@@ -3,12 +3,12 @@ using Dalamud.Bindings.ImGui;
 using System;
 using System.Numerics;
 
-namespace BetterTargetingSystem.Windows;
+namespace BTSU.Windows;
 
 public class HelpWindow : Window, IDisposable
 {
     public HelpWindow(Plugin plugin) : base(
-        "Better Targeting System - Help",
+        "BTSU - Help",
         ImGuiWindowFlags.NoResize | ImGuiWindowFlags.NoCollapse | ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
         this.Size = new Vector2(768, 512);
@@ -22,7 +22,7 @@ public class HelpWindow : Window, IDisposable
         ImGui.AlignTextToFramePadding();
         ImGui.PushTextWrapPos(760);
         ImGui.Indent();
-        ImGui.Text("\nBetter Targeting System is a plugin that tries to improve the way Tab targeting works.");
+        ImGui.Text("\nBTSU is a plugin that tries to improve the way Tab targeting works.");
         ImGui.Text("It uses cones of different sizes depending on distance to identify which targets can be acquired.");
         ImGui.Text("\nHere's what it does when you press the [Cycle Targets] keybind:");
         ImGui.Indent();
